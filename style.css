@@ -186,3 +186,51 @@ button {
     gap: 20px;
     padding-top: 68px;
 }
+
+/* four section */
+.contact {
+    padding: 100px 0;
+}
+
+.contact-list {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-item {
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.25);
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+.contact-phone-title {
+    font-weight: 700;
+font-size: 32px;
+color: #ff463a;
+}
+
+/* footer */
+.footer {
+    background-color: #181818;
+    padding: 60px 60px;
+}
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-logo-link {
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+.footer-logo-text {
+    font-size: 24px;
+    color: #ff993a;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+}
+.footer-text {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
