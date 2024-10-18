@@ -69,6 +69,7 @@ button {
 .header-link:hover {
     color: #ff993a;
     font-weight: 600;
+    transition: 0.5s;
 }
 
 /* first section */
@@ -202,11 +203,42 @@ button {
     background: #fff;
     border-radius: 10px;
     text-align: center;
+    padding: 30px 35px 53px 35px;
+    width: 526px;
 }
-.contact-phone-title {
+.contact-item:hover {
+    background-color: #FF463A;
+    transition: 0.5s;
+    
+}
+.contact-icon {
+    width: 100px;
+    height: 100px;
+    padding-bottom: 40px;
+}
+
+.contact-title {
     font-weight: 700;
-font-size: 32px;
-color: #ff463a;
+    font-size: 32px;
+    color: #ff463a;
+    padding-bottom: 25px;
+}
+.contact-title:hover{
+    color: #fff;
+}
+.contact-phone-link,
+.contact-email-link,
+.contact-address {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: #000;
+    font-style: normal;
+}
+.contact-phone-link:hover,
+.contact-email-link:hover,
+.contact-address:hover {
+    color: #fff;
 }
 
 /* footer */
@@ -214,22 +246,26 @@ color: #ff463a;
     background-color: #181818;
     padding: 60px 60px;
 }
+
 .footer-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .footer-logo-link {
     display: flex;
     align-items: center;
     gap: 37px;
 }
+
 .footer-logo-text {
     font-size: 24px;
     color: #ff993a;
     text-transform: uppercase;
     font-family: "Oswald", sans-serif;
 }
+
 .footer-text {
     color: #fff;
     font-family: "Inter", sans-serif;
